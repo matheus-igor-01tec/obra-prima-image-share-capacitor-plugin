@@ -1,3 +1,6 @@
 export interface OpImageSharePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  addListener(
+    eventName: 'imageReceived',
+    listenerFunc: (data: { imageUri: string }) => void
+  ): Promise<{ remove: () => void }>;
 }
