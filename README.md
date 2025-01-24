@@ -11,9 +11,28 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`addListener('imageReceived', ...)`](#addlistenerimagereceived-)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### addListener('imageReceived', ...)
+
+```typescript
+addListener(eventName: 'imageReceived', listenerFunc: (data: { imageUri: string; }) => void) => Promise<{ remove: () => void; }>
+```
+
+| Param              | Type                                                  |
+| ------------------ | ----------------------------------------------------- |
+| **`eventName`**    | <code>'imageReceived'</code>                          |
+| **`listenerFunc`** | <code>(data: { imageUri: string; }) =&gt; void</code> |
+
+**Returns:** <code>Promise&lt;{ remove: () =&gt; void; }&gt;</code>
+
+--------------------
+
 </docgen-api>
