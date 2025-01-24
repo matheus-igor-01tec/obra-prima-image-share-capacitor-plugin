@@ -7,7 +7,7 @@
     "methods": [
       {
         "name": "addListener",
-        "signature": "(eventName: 'imageReceived', listenerFunc: (data: { uriImagem: string; }) => void) => Promise<{ remove: () => void; }>",
+        "signature": "(eventName: 'imageReceived', listenerFunc: (data: { uriImagem?: string; urisImagens?: string[]; }) => void) => Promise<{ remove: () => void; }>",
         "parameters": [
           {
             "name": "eventName",
@@ -17,7 +17,7 @@
           {
             "name": "listenerFunc",
             "docs": "",
-            "type": "(data: { uriImagem: string; }) => void"
+            "type": "(data: { uriImagem?: string | undefined; urisImagens?: string[] | undefined; }) => void"
           }
         ],
         "returns": "Promise<{ remove: () => void; }>",
