@@ -1,5 +1,4 @@
 # node files
-dist
 node_modules
 
 # iOS files
@@ -8,7 +7,7 @@ Podfile.lock
 Package.resolved
 Build
 xcuserdata
-/.build
+
 /Packages
 xcuserdata/
 DerivedData/

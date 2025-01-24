@@ -1,0 +1,36 @@
+{
+  "api": {
+    "name": "OpImageSharePlugin",
+    "slug": "opimageshareplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "addListener",
+        "signature": "(eventName: 'imageReceived', listenerFunc: (data: { imageUri: string; }) => void) => Promise<{ remove: () => void; }>",
+        "parameters": [
+          {
+            "name": "eventName",
+            "docs": "",
+            "type": "'imageReceived'"
+          },
+          {
+            "name": "listenerFunc",
+            "docs": "",
+            "type": "(data: { imageUri: string; }) => void"
+          }
+        ],
+        "returns": "Promise<{ remove: () => void; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "addlistenerimagereceived-"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
