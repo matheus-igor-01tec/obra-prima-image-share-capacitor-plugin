@@ -1,6 +1,6 @@
 export interface OpImageSharePlugin {
   addListener(
     eventName: 'imageReceived',
-    listenerFunc: (data: { imageUri: string }) => void
+    listenerFunc: (data: { uriImagem: string }) => void
   ): Promise<{ remove: () => void }>;
 }
