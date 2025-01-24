@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheus-igor-01tec/obra-prima-image-share-capacitor-plugin.git.git"
+    "url": "git+https://github.com/matheus-igor-01tec/obra-prima-image-share-capacitor-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/matheus-igor-01tec/obra-prima-image-share-capacitor-plugin.git/issues"
